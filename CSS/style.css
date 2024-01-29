@@ -1,0 +1,232 @@
+body{
+    background-color: rgba(0,0,21,1);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #000015;
+    color:coral;
+    
+}
+
+footer{
+}
+
+.head{
+    border-bottom: 2px solid coral;
+    margin-bottom:0px;
+    /* margin: 0 10%; */
+}
+
+.navdir{
+    margin: 0 10%;
+}
+
+.container{
+    display: flex;
+    font-weight: 700;
+    font-size: 24px;
+    height: 45px;
+    padding-top: 10px;
+}
+
+.content a{
+    color: coral;
+    text-decoration: none;
+}
+
+.event{
+    flex-grow: 2;
+}
+
+.xtra{
+    display: flex;
+    gap: 22px;
+}
+
+.showcase{
+    /* border: 2px solid white; */
+    height: 60vh;
+    background: url("../Images/showcase.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* border-bottom: coral; */
+    border-bottom: 2px solid coral;
+    margin-bottom: 5px;
+}
+
+.list{
+    /* border-top: coral; */
+    /* background-color: aqua; */
+    height: 50px;
+    text-align: center;
+    /* border-bottom: 2px solid coral; */
+    padding-bottom: 12px;
+}
+
+.list p{
+    padding: 5px;
+    margin: 0;
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+    text-shadow: 1px 5px 35px coral;
+}
+
+.boxes{
+    margin-top: 50px;
+    display: flex;
+    gap: 70px;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+}
+
+.boxes a{
+    color: white;
+    text-decoration: none;
+}
+
+.box{
+    background-color: rgba(0,0,21,1);
+    border: 1px solid grey;
+    border-radius: 10px;
+    box-shadow: 0 8px 40px 0 rgba(45, 57, 231, 0.37) ;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    transition-duration: 200ms;
+}
+
+.box:hover{
+    transform: scale(1.05);
+    transition-duration: 200ms;
+}
+
+.headings{
+    margin-top: 80%;
+    background-color: black;
+    height: 20%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.headings h1{
+    padding-top: 16px;
+}
+
+.tech{
+    background: url(../Images/tech.jpg) no-repeat;
+}
+
+.cult{
+    background: url(../Images/cult.jpg) no-repeat;
+    background-position: center;
+}
+
+.sport{
+    background: url(../Images/sports.jpg) no-repeat;
+    background-position: center;
+}
+
+.foot{
+    margin-top: 85px;
+    border-top: 2px solid coral;
+    color: white;
+    text-align: center;
+}
+
+
+/* technical page */
+
+
+.techeve{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+    /* border: 2px solid white; */
+    border-bottom: 2px solid coral;
+}
+
+.techeve p{
+    
+    padding: 5px;
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+    text-shadow: 1px 5px 35px coral;
+}
+
+.backg{
+    background: url("../Images/shapes.gif");
+}
+
+.box h1{
+    font-weight: 800;
+    background-color: rgba(255, 127, 80, 0.06);
+}
+
+.dec h1{
+    color: coral;
+    border-left: 3px solid coral;
+    border-right: 3px solid coral;
+}
+
+.details{
+    font-size: 20px;
+}
+
+.btn{
+    display:block;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    width: 30%;
+    height: 30px;
+    border-radius: 5px;
+    padding-top: 14px;
+    margin-top: 25%;
+    margin-left: 10%;
+    font-weight: 700;
+}
+
+/* QUIZ PAGE */
+
+.quiz_h{
+    color: aliceblue;
+    text-align: center;
+    font-size: 35px;
+    text-shadow: 0 7px 25px coral;
+}
+
+.rewards p{
+    font-size: 30px;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.rewards{
+    color: aliceblue;
+}
+
+.rules p{
+    font-weight: 600;
+    font-size:30px;
+    text-decoration: underline;
+}
+
+.rules{
+    color: aliceblue;
+    line-height: 35px;
+}
+
+.requirements h1{
+    font-weight: 600;
+    font-size:30px;
+    text-decoration: underline;
+
+}
+
+.requirements {
+    color: aliceblue;
+}
