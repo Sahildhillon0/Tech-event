@@ -119,6 +119,22 @@ footer{
     background: url(../Images/tech.jpg) no-repeat;
 }
 
+.ani{
+    animation: techni;
+    animation-duration: 1.5s;
+
+}
+
+@keyframes techni {
+    0%{
+        padding-top: 5%;
+    }
+    100%{
+        padding-top: 0%;
+    }
+    
+}
+
 .cult{
     background: url(../Images/cult.jpg) no-repeat;
     background-position: center;
